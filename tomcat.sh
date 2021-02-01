@@ -3,6 +3,7 @@
 #----------------------
 echo "Updating server..."
 sudo apt-get update 
+sudo apt-get upgrade
 echo "Updating Java..."
 sudo apt-get install default-jdk 
 echo "Installing tomcat8..."
